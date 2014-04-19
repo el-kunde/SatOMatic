@@ -1,0 +1,62 @@
+{
+	"receptor":{
+		"rfc":		"FILL_THIS",
+		"nombre":	"FILL_THIS",
+		
+		"domicilio":{	
+			"calle":		"FILL_THIS",
+			"numExt":		"FILL_THIS",
+			"numInt":		"",
+			"colonia":		"FILL_THIS",
+			"localidad":	"FILL_THIS",
+			"referencia":	"",
+			"municipio":	"FILL_THIS",
+			"estado":		"FILL_THIS",
+			"pais":			"FILL_THIS",
+			"cp":			"FILL_THIS"
+		}
+	},
+	
+	"comprobante":{
+		
+		"comprobante":{
+			"serie":				"FILL_THIS",
+			"folio":				"FILL_THIS",
+			"lugarDeExpedicion":	"FILL_THIS",
+			"tipoDeComprobante":	"FILL_THIS",
+			"moneda":				"",
+			"tipoDeCambio":			"",
+			"formaDePago":			"FILL_THIS",
+			"metodoDePago":			"FILL_THIS",
+			"numCuentaDePago":		"",
+			"condicionesDePago":	"FILL_THIS"
+		},
+		
+		"conceptos":{
+			"cantidad":				"FILL_THIS",
+			"unidad":				"FILL_THIS",
+			"numIdentificacion":	"",
+			"descripcion":			"FILL_THIS",
+			"valorUnitario":		"FILL_THIS"
+		},
+		
+		"impTras":[
+			{
+				"tipo":		"IVA",
+				"tasa":		"16",
+				"importe":	"FILL_THIS"				
+			}
+		],
+		
+		"impRet":[
+			{
+				"tipo":		"IVA",
+				"importe":	"FILL_THIS"
+			},
+			{
+				"tipo":		"ISR",
+				"importe":	"FILL_THIS"
+			}
+		]
+	}
+}
